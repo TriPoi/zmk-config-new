@@ -27,7 +27,6 @@ RC(10,0) RC(10,1) RC(10,2) RC(10,3) RC(10,4) RC(10,5) RC(10,6)                 R
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        wakeup-source;
         diode-direction = "col2row";
     };
 };

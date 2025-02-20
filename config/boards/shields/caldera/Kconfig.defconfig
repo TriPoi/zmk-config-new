@@ -1,4 +1,4 @@
-if SHIELD_CALDERA_LEFT
+if SHIELD_CALDERA_LEFT3
 
 config ZMK_KEYBOARD_NAME
     default "LR Keyboard"

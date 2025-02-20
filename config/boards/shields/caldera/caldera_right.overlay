@@ -1,7 +1,8 @@
 #include "caldera.dtsi"
 
 &default_transform { 
-    col-offset = <6>;
+    col-offset = <7>;
+    row-offset = <5>
 };
 
 &kscan0 {
@@ -21,8 +22,4 @@
         , <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
-};
-
-&default_transform { // Offset of 7 because the left side has 7 columns
-    col-offset = <7>;
 };
